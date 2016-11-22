@@ -4,7 +4,7 @@
   "description": "",
   "main": "Math.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel -d lib",
+    "build": "./node_modules/.bin/babel --presets es2015 -d lib",
     "bv": "./node_modules/.bin/babel --version"
   },
   "author": "",
